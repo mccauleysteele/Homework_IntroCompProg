@@ -1,7 +1,11 @@
 #-----------------------------------------------------
-# Homework: Debugging
+# Homework 1: Debugging
+#-----------------------------------------------------
 # Debug the following Python script
 # 25 points total (1 point = 4% of grade)
+# This assignment will count as a "Journal" grade.
+# You may use class notes of visit office hours.
+# You cannot work on this assignment as a group.
 
 # For each correction, use the comment symbol (#) to explain the debug.
 # No comments, no credit.
@@ -54,7 +58,7 @@ print("the answer is:" + answer)
 del answer
 #--------------
 
-# 5: Function
+# 5: Functions
 # (10 points)
 
 # Fix this code to calculate the area of a triangle.
