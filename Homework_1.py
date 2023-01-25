@@ -16,14 +16,14 @@
 x = 2
 y = 5
 z = x + y
-prnit(z)
+prnit(z)# Spelling error "Print" instead of "prnit"
 
 # 2: Strings and data
 # (2 points)
 w = input("enter any number")
 u = input("enter another number")
 answer = w+u;
-print(answer)
+print(answer) #Did not end code with ";"
 
 #--------------
 # ignore this:
@@ -35,7 +35,7 @@ del w,u,z,y,x
 
 price = input("What is the most you would pay for a pizza topping?: ")
 if price = 1.5
-print(That's about right)
+print(That's about right)        #No quotations in the phrase
 elif price>1.5
 print("That's too much")
 else
@@ -48,7 +48,7 @@ print("Less than $1.50 would be great")
 # Example: if n= 10, the answer = 10+9+8+7+6+...+1+0 = 55
 
 n = input("For what number would you like to find the cumulative sum?: ")
-anwser = 0
+anwser = 0. #spelling error "answer" not "anwser"
 for i in range(1, n+1)
 answer = answer + 1
 print("the answer is:" + answer)
@@ -63,14 +63,19 @@ del answer
 
 # Fix this code to calculate the area of a triangle.
 # Also add code that gives a "DNE" (does not exist) message if the input to base or height is negative.
-def trianglearea(x,y)
+def trianglearea(x,y) #Spelling error (I think too whacky to tell) "triangle" not "trianlgearea" or it just needs a space between triangle and area
 return(0.5*x*y)
 
 base = input("what is the base of your triangle?: ")
-height = input("what is the height of your triangle?: ")
+height = input("what is the base of your triangle?: ")
 
-result = trianglearae(x,y)
+result = trianglearae(x,y) #This i think is a spelling error
 print("The area of the triangle is: " + result)
+      #added code
+If result = <0 print("Not valid measurements")
+base  = input("what is the base of your triangle?: ")
+height = input("what is the base of your triangle?: ")
+            
 
 #--------------------------------------------------------
 # End of assignment
